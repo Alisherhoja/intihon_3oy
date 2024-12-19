@@ -1,0 +1,229 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    padding: 20px 0;
+    background-color: #272C3D   ;
+}
+.container{
+    max-width: 1273px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.header__link{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+} */
+
+
+
+
+
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #f90;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+    height: 554px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1273px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.major-updates {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.major-updates h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.updates-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.update {
+    background-color: #222;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.update img {
+    width: 100%;
+    height: auto;
+}
+
+.update-title {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header__link__2{
+    display: flex;
+    align-items: center;
+    color: #fff; 
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: right;
+}
+.header__link__2::after{
+    background-image: url("./images/arrow.png");
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    content: "";
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+header, footer {
+    background-color: #222;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a, footer nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+header nav a:hover, footer nav a:hover {
+    color: #f90;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.content img {
+    max-width: 100%;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.content p {
+    flex: 1;
+    margin: 0;
+    line-height: 1.5;
+}
+.footer_logo{
+    justify-content: left;
+}
